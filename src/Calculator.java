@@ -8,6 +8,7 @@ public class Calculator {
         Calculator calculator = new Calculator();
         System.out.println(calculator.sum(firstNumber,secondNumber));
         System.out.println(calculator.div(firstNumber,secondNumber));
+        System.out.println(calculator.mul(firstNumber,secondNumber));
     }
     private double sum(double firstNumber , double secondNumber){
         return firstNumber+secondNumber;
@@ -15,4 +16,9 @@ public class Calculator {
     private double div(double firstNumber, double secondNumber){
         return firstNumber/secondNumber;
     }
+
+    private double mul(double firstNumber , double secondNumber){
+        return firstNumber*secondNumber;
+    }
+
 }
